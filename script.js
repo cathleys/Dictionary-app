@@ -33,7 +33,4 @@ const getMeaning = () => {
     });
 };
 
-formEl.addEventListener("keydown", (e) => {
-  e.preventDefault();
-  if (e.key === "Enter") return getMeaning();
-});
+
